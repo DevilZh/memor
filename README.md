@@ -1,5 +1,5 @@
 # memoComponentCreator
-create memo component with react &amp; context
+Create memo component with react &amp; context
 
 ## description
 
