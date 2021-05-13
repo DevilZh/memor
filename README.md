@@ -45,9 +45,11 @@ const connector = connect(state => ({
   foo: state.foo
 }))
 
-const Layout: FC<ConnectedProps<typeof connector> & {
+type Props = ConnectedProps<typeof connector> & {
   incomingProp: string
-}> = (props) => {
+}
+
+const Layout: FC<Props> = (props) => {
   return (
     <div>
       <p>supProp: {props.incomingProp}</p>
