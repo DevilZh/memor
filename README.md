@@ -1,17 +1,16 @@
-# memoComponentCreator
 Create memo component with react &amp; context
 
-## description
+## Description
 
 If your React Application Working with the `Context API`, it could help you to create React.memo component quickly, which is better way to avoid unnecessary render.
 
-## usage
+## Usage
 
 ``` typescript
 
 // App.tsx
 import { createContext, useState } from 'react'
-import { createMemoComponent } from 'memoComponentCreator'
+import { createMemoComponent } from 'memor'
 import Layout from './components/Layout'
 
 interface State {
@@ -39,7 +38,7 @@ then, in the children Component:
 ```typescript
 // Layout.tsx
 import { FC } from 'react'
-import { ConnectedProps } from 'memoComponentCreator'
+import { ConnectedProps } from 'memor'
 import { connect } from "../App"
 
 const connector = connect(state => ({
