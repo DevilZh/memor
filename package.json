@@ -1,0 +1,33 @@
+{
+  "name": "memocomponentcreator",
+  "version": "1.0.0",
+  "description": "create memo component with react & context",
+  "main": "/dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevilZh/memoComponentCreator.git"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "memo"
+  ],
+  "author": "ryanzhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevilZh/memoComponentCreator/issues"
+  },
+  "homepage": "https://github.com/DevilZh/memoComponentCreator#readme",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "typescript": "^4.2.4"
+  }
+}

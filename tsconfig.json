@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    "target": "ES5",
+    "esModuleInterop": true,
+  }
+}
